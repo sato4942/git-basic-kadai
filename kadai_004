@@ -1,0 +1,18 @@
+watanabesatoshi@watanabesatoshinoMacBook-Air ~ % mkdir git_challenge
+watanabesatoshi@watanabesatoshinoMacBook-Air ~ % cd git_challenge
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/watanabesatoshi/git_challenge/.git/
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % vi hello_world.txt
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % git commit -m "hellow_world.txtを追加"
+[main (root-commit) e1d412e] hellow_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % vi hello_world.txt
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % git add hello_world.txt
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % git commit -m "日本語訳を追加"
+[main 568f76c] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % git log --oneline
+568f76c (HEAD -> main) 日本語訳を追加
+e1d412e hellow_world.txtを追加
+watanabesatoshi@watanabesatoshinoMacBook-Air git_challenge % 
